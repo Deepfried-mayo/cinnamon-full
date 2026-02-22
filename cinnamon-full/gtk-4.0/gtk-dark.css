@@ -1038,8 +1038,9 @@ windowcontrols {
   windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) {
     margin-left: 7px; }
   windowcontrols button {
-    min-width: 24px;
-    min-height: 24px;
+    min-width: 20px;
+    min-height: 20px;
+    font-size: 1;
     padding: 5px 2px;
     border-color: transparent;
     background-color: transparent;
@@ -1054,7 +1055,8 @@ windowcontrols {
       background-color: rgba(0, 0, 0, 0.15); }
     windowcontrols button.close, windowcontrols button.close:hover, windowcontrols button.close:active, windowcontrols button.close:checked, windowcontrols button.maximize, windowcontrols button.maximize:hover, windowcontrols button.maximize:active, windowcontrols button.maximize:checked, windowcontrols button.minimize, windowcontrols button.minimize:hover, windowcontrols button.minimize:active, windowcontrols button.minimize:checked {
       background-color: transparent;
-      background-size: 24px 24px;
+      background-size: 20px 20px;
+      font-size: 1;
       background-position: center;
       background-repeat: no-repeat;
       border-width: 0; }
@@ -2143,8 +2145,9 @@ checkbutton label:not(:only-child):last-child, radiobutton label:not(:only-child
 
 check,
 radio {
-  min-width: 16px;
-  min-height: 16px;
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 1;
   margin: 0 2px; }
   check:only-child, menu menuitem check,
   radio:only-child, menu menuitem radio {

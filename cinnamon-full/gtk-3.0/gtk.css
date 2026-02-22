@@ -1879,260 +1879,180 @@ headerbar switch:checked:disabled,
   background-image: -gtk-scaled(url("assets/toggle-on-disabled.svg"), url("assets/toggle-on-disabled@2.svg")); }
 
 }
-check, radio {
-  min-width: 28px;
-  min-height: 28px;
-  -gtk-icon-scale: 28px;
-}
+
 .check,
 check,
 treeview.check {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off.svg"), url("assets/checkbox-off@2.svg")); }
 
 .osd check {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off.svg"), url("assets/checkbox-off@2.svg")); }
 
 .view check:selected, iconview check:selected,
 treeview.check:selected,
 row:selected check,
 infobar check {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off.svg"), url("assets/checkbox-off@2.svg")); }
 
 .check:disabled,
 check:disabled,
 treeview.check:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off-disabled.svg"), url("assets/checkbox-off-disabled@2.svg")); }
 
 .osd check:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off-disabled.svg"), url("assets/checkbox-off-disabled@2.svg")); }
 
 .view check:disabled:selected, iconview check:disabled:selected,
 treeview.check:disabled:selected,
 row:selected check:disabled,
 infobar check:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off-disabled.svg"), url("assets/checkbox-off-disabled@2.svg")); }
 
 .check:indeterminate,
 check:indeterminate,
 treeview.check:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.svg"), url("assets/checkbox-mixed@2.svg")); }
 
 .osd check:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.svg"), url("assets/checkbox-mixed@2.svg")); }
 
 .view check:indeterminate:selected, iconview check:indeterminate:selected,
 treeview.check:indeterminate:selected,
 row:selected check:indeterminate,
 infobar check:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.svg"), url("assets/checkbox-mixed@2.svg")); }
 
 .check:indeterminate:disabled,
 check:indeterminate:disabled,
 treeview.check:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-disabled.svg"), url("assets/checkbox-mixed-disabled@2.svg")); }
 
 .osd check:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-disabled.svg"), url("assets/checkbox-mixed-disabled@2.svg")); }
 
 .view check:indeterminate:disabled:selected, iconview check:indeterminate:disabled:selected,
 treeview.check:indeterminate:disabled:selected,
 row:selected check:indeterminate:disabled,
 infobar check:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-disabled.svg"), url("assets/checkbox-mixed-disabled@2.svg")); }
 
 .check:checked,
 check:checked,
 treeview.check:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox.svg"), url("assets/checkbox@2.svg")); }
 
 .osd check:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox.svg"), url("assets/checkbox@2.svg")); }
 
 .view check:checked:selected, iconview check:checked:selected,
 treeview.check:checked:selected,
 row:selected check:checked,
 infobar check:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox.svg"), url("assets/checkbox@2.svg")); }
 
 .check:checked:disabled,
 check:checked:disabled,
 treeview.check:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-disabled.svg"), url("assets/checkbox-disabled@2.svg")); }
 
 .osd check:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-disabled.svg"), url("assets/checkbox-disabled@2.svg")); }
 
 .view check:checked:disabled:selected, iconview check:checked:disabled:selected,
 treeview.check:checked:disabled:selected,
 row:selected check:checked:disabled,
 infobar check:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-disabled.svg"), url("assets/checkbox-disabled@2.svg")); }
 
 .radio,
 radio,
 treeview.radio {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off.svg"), url("assets/radio-off@2.svg")); }
 
 .osd radio {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off.svg"), url("assets/radio-off@2.svg")); }
 
 .view radio:selected, iconview radio:selected,
 treeview.radio:selected,
 row:selected radio,
 infobar radio {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off.svg"), url("assets/radio-off@2.svg")); }
 
 .radio:disabled,
 radio:disabled,
 treeview.radio:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off-disabled.svg"), url("assets/radio-off-disalbed@2.svg")); }
 
 .osd radio:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off-disabled.svg"), url("assets/radio-off-disabled@2.svg")); }
 
 .view radio:disabled:selected, iconview radio:disabled:selected,
 treeview.radio:disabled:selected,
 row:selected radio:disabled,
 infobar radio:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-off-disabled.svg"), url("assets/radio-off-disabled@2.svg")); }
 
 .radio:indeterminate,
 radio:indeterminate,
 treeview.radio:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.svg"), url("assets/radio-mixed@2.svg")); }
 
 .osd radio:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.svg"), url("assets/radio-mixed@2.svg")); }
 
 .view radio:indeterminate:selected, iconview radio:indeterminate:selected,
 treeview.radio:indeterminate:selected,
 row:selected radio:indeterminate,
 infobar radio:indeterminate {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.svg"), url("assets/radio-mixed@2.svg")); }
 
 .radio:indeterminate:disabled,
 radio:indeterminate:disabled,
 treeview.radio:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-disabled.svg"), url("assets/radio-mixed-disabled@2.svg")); }
 
 .osd radio:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-disabled.svg"), url("assets/radio-mixed-disabled@2.svg")); }
 
 .view radio:indeterminate:disabled:selected, iconview radio:indeterminate:disabled:selected,
 treeview.radio:indeterminate:disabled:selected,
 row:selected radio:indeterminate:disabled,
 infobar radio:indeterminate:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-disabled.svg"), url("assets/radio-mixed-disabled@2.svg")); }
 
 .radio:checked,
 radio:checked,
 treeview.radio:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio.svg"), url("assets/radio@2.svg")); }
 
 .osd radio:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio.svg"), url("assets/radio@2.svg")); }
 
 .view radio:checked:selected, iconview radio:checked:selected,
 treeview.radio:checked:selected,
 row:selected radio:checked,
 infobar radio:checked {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio.svg"), url("assets/radio@2.svg")); }
 
 .radio:checked:disabled,
 radio:checked:disabled,
 treeview.radio:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-disabled.svg"), url("assets/radio-disabled@2.svg")); }
 
 .osd radio:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-disabled.svg"), url("assets/radio-disabled@2.svg")); }
 
 .view radio:checked:disabled:selected, iconview radio:checked:disabled:selected,
 treeview.radio:checked:disabled:selected,
 row:selected radio:checked:disabled,
 infobar radio:checked:disabled {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/radio-disabled.svg"), url("assets/radio-disabled@2.svg")); }
 
 .view.content-view.check:not(.list), iconview.content-view.check:not(.list) {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-off.svg"), url("assets/checkbox-off@2.svg"));
   background-color: transparent; }
 
 .view.content-view.check:checked:not(.list), iconview.content-view.check:checked:not(.list) {
-  min-width: 28px;
-  min-height: 28px;
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox.svg"), url("assets/checkbox@2.svg"));
   background-color: transparent; }
 
@@ -2148,8 +2068,9 @@ checkbutton label:not(:only-child):last-child, radiobutton label:not(:only-child
 
 check,
 radio {
-  min-width: 16px;
-  min-height: 16px;
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 1;
   margin: 0 2px; }
   check:only-child, menu menuitem check,
   radio:only-child, menu menuitem radio {
@@ -2975,6 +2896,7 @@ headerbar button.titlebutton,
 .titlebar button.titlebutton {
   min-width: 20px;
   min-height: 20px;
+  font-size: 1;
   padding: 10px 1px;
   margin: 0;
   transition: none;
@@ -2999,19 +2921,21 @@ headerbar button.titlebutton,
   .titlebar button.titlebutton.maximize,
   .titlebar button.titlebutton.minimize {
     background-color: transparent;
-    background-size: 24px 24px;
+    background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 18px;
+    font-size: 1;
     border-width: 0; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close{
-    background-size: 24px 24px;
+    background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
     border-color: transparent;
     border-radius: 18px;
+    font-size: 1;
     background-image: -gtk-scaled(url("assets/close.svg"),url("assets/close@2.svg")); }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
