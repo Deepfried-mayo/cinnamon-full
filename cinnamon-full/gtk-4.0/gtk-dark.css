@@ -1038,8 +1038,8 @@ windowcontrols {
   windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) {
     margin-left: 7px; }
   windowcontrols button {
-    min-width: 20px;
-    min-height: 20px;
+    min-width: 24px;
+    min-height: 24px;
     padding: 5px 2px;
     border-color: transparent;
     background-color: transparent;
