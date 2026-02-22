@@ -1054,7 +1054,7 @@ windowcontrols {
       background-color: rgba(0, 0, 0, 0.15); }
     windowcontrols button.close, windowcontrols button.close:hover, windowcontrols button.close:active, windowcontrols button.close:checked, windowcontrols button.maximize, windowcontrols button.maximize:hover, windowcontrols button.maximize:active, windowcontrols button.maximize:checked, windowcontrols button.minimize, windowcontrols button.minimize:hover, windowcontrols button.minimize:active, windowcontrols button.minimize:checked {
       background-color: transparent;
-      background-size: 20px 20px;
+      background-size: 24px 24px;
       background-position: center;
       background-repeat: no-repeat;
       border-width: 0; }
