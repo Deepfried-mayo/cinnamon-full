@@ -1878,8 +1878,6 @@ headerbar switch:checked:disabled,
 .primary-toolbar toolbar switch:checked:disabled {
   background-image: -gtk-scaled(url("assets/toggle-on-disabled.svg"), url("assets/toggle-on-disabled@2.svg")); }
 
-}
-
 .check,
 check,
 treeview.check {
@@ -2070,8 +2068,8 @@ check,
 radio {
   min-width: 20px;
   min-height: 20px;
-  font-size: 1;
-  margin: 0 2px; }
+  margin: 0 2px;
+  font-size: 1; }
   check:only-child, menu menuitem check,
   radio:only-child, menu menuitem radio {
     margin: 0; }
@@ -2896,14 +2894,14 @@ headerbar button.titlebutton,
 .titlebar button.titlebutton {
   min-width: 20px;
   min-height: 20px;
-  font-size: 1;
   padding: 10px 1px;
   margin: 0;
   transition: none;
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  background-color: rgba(34, 34, 38, 0); }
+  background-color: rgba(34, 34, 38, 0);
+  font-size: 1; }
   headerbar button.titlebutton:hover,
   .titlebar button.titlebutton:hover {
     color: rgba(255, 255, 255, 0.87);
@@ -2925,8 +2923,8 @@ headerbar button.titlebutton,
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 18px;
-    font-size: 1;
-    border-width: 0; }
+    border-width: 0;
+    font-size: 1; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close{
     background-size: 20px 20px;
