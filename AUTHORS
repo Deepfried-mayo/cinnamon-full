@@ -1,0 +1,5 @@
+SOURCES:
+Mint-Y-Dark-Aqua: https://github.com/linuxmint/mint-themes/tree/master/files/usr/share/themes/Mint-Y-Dark-Aqua
+cinnamon: https://github.com/linuxmint/cinnamon/tree/master/data/theme
+CUSTOMIZER:
+Deepfried-mayo - cinnamon-full (https://github.com/Deepfried-mayo/cinnamon-full)
